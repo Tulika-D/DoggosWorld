@@ -1,0 +1,240 @@
+.sections{
+    display: flex;
+
+}
+
+.section1{
+    flex: 1;
+}
+
+.section2{
+    flex: 6;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+}
+
+#suggestions-container {
+    position: absolute;
+    width: 300px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: none;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+.ageExpand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.avg-ageContainer {
+    display: none;
+    flex-direction: column;
+}
+
+.avg-ageContainer input[type="checkbox"] {
+    margin: 5px;
+}
+
+.sizeExpand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.sizeContainer {
+    display: none;
+    flex-direction: column;
+}
+
+.sizeContainer input[type="checkbox"] {
+    margin: 5px;
+}
+
+.weightExpand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.weightContainer {
+    display: none;
+    flex-direction: column;
+}
+
+.weightContainer input[type="checkbox"] {
+    margin: 5px;
+}
+
+.coatExpand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: 5px;
+    border-radius: 5px;
+}
+
+.coatContainer {
+    display: none;
+    flex-direction: column;
+}
+
+.coatContainer input[type="checkbox"] {
+    margin: 5px;
+}
+
+.dogphoto{
+    height: 300px;
+    width: 300px;
+}
+
+.dogintro{
+    display: flex;
+    flex-direction: row;
+}
+
+.imageContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 0 0 calc(33.33% - 10px); /* Three cards per row, 10px is for spacing between cards */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+}
+
+.card-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.like-btn {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid blue;
+
+}
+
+.like-btn.selected {
+    background-color: darkolivegreen;
+    color: #fff;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.share-btn {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid blue;
+    cursor: pointer;
+}
+
+.info-btn {
+    background-color: cadetblue;
+    color: black;
+    border: 1px solid blue;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shareButtonContainer {
+    display: inline-block;
+}
+
+.share-button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+  /* Styles for floating windows */
+.floating-window {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 100; 
+}
+
+.platform {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.platform-link {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+.platform i {
+    margin-right: 5px;
+}
+

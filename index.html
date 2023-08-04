@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel ="stylesheet" href = "style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-CEMe/5PQyTp9msqFt6f5mLC9AsKBKcPftt0U4+GL69sK99kgHbHTowz4fl/WjUw+HeC4No5OJXVLB7G2WbpBQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="container-fluid main">
+        <h2 class="">Doggo's World</h2>
+        <div class="sections">
+            <div class="section1">
+                <form>
+                    <input type="text" name="search" id="search" placeholder="Find by breed name">
+                    <div id="suggestions-container"></div>
+                    <!-- <input type="submit" value="Search"> -->
+                </form>
+                <div class="filter-buttons">
+                    <h4>Filters</h4>
+                    <div class="sizeExpand">Size<span class="toggleSize-icon">+</span></div>
+                    <div class="sizeContainer">
+                        <label>
+                            <input type="checkbox" name="size">Extra Small
+                        </label>
+                        <label>
+                            <input type="checkbox" name="size">Small
+                        </label>
+                        <label>
+                            <input type="checkbox" name="size">Medium
+                        </label>
+                        <label>
+                            <input type="checkbox" name="size">Large
+                        </label>
+                    </div>
+                    <div class="ageExpand">Age<span class="toggleAge-icon">+</span></div>
+                        <div class="avg-ageContainer">
+                            <label>
+                                <input type="checkbox" name="age">6-10 years
+                            </label>
+                            <label>
+                                <input type="checkbox" name="age">10-12 years
+                            </label>
+                            <label>
+                                <input type="checkbox" name="age">12-15 years
+                            </label>
+                            <label>
+                                <input type="checkbox" name="age">15-20 years
+                            </label>
+                        </div>
+                    <div class="weightExpand">Weight<span class="toggleWeight-icon">+</span></div>
+                        <div class="weightContainer">
+                            <label>
+                                <input type="checkbox" name="weight">1kg-10kg
+                            </label>
+                            <label>
+                                <input type="checkbox" name="weight">10kg-25kg
+                            </label>
+                            <label>
+                                <input type="checkbox" name="weight">25kg-40kg
+                            </label>
+                            <label>
+                                <input type="checkbox" name="weight">40kg-90kg
+                            </label>
+                        </div>
+                    <div class="coatExpand">Coat Type<span class="toggleCoat-icon">+</span></div>
+                        <div class="coatContainer">
+                            <label>
+                                <input type="checkbox" name="coat">Short/Smooth hair
+                            </label>
+                            <label>
+                                <input type="checkbox" name="coat">Medium hair
+                            </label>
+                            <label>
+                                <input type="checkbox" name="coat">Long/Silky hair
+                            </label>
+                            <label>
+                                <input type="checkbox" name="coat">Thick/Curly hair
+                            </label>
+                            <label>
+                                <input type="checkbox" name="coat">Double coat
+                            </label>
+                        </div>
+                </div>    
+            </div>
+            <div class="section2">
+                <h2>About Dogs</h2>
+                    <div class="dogintro">
+                        <img class="img-responsive dogphoto" src="https://img.rawpixel.com/private/static/images/website/2022-05/ns8230-image.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=348b2fd5c7adbc576517dae7c32de4aa">
+                        <p>The dog is a pet animal and is considered to be one of the most obedient animals.Dogs belong to the wolf family. Dogs are domesticated carnivores belonging to the family of Canidae.Dogs are said to be highly intelligent and sensitive animals. All dogs are trained to perform different tasks.Highly intelligent, dogs have the capability of expressing their joy and happiness by wagging their tails.The dog is a simple animal that shows no complex characteristics. Dogs are selfless animals and they do not have any extraordinary requirements. They look for little care and affection. A dog becomes a good companion for its owner.</p>
+                    </div>    
+                    <div class="imageContainer container-fluid" id="imageContainer">
+                        
+                        
+                    </div>    
+            </div>
+        </div>
+    </div>
+    <script src ="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+</body>
+</html>
+
