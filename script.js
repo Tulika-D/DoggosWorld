@@ -122,23 +122,19 @@ function toggleCoatCheckboxes() {
 }
 expandCoat.addEventListener('click', toggleCoatCheckboxes)
 
-
-// const shareButton = document.querySelector('.share-btn');
-// const floatingWindow = document.querySelector('.floating-window');
-
-// function toggleFloatingWindow() {
-//     floatingWindow.classList.toggle('show')
-//     if (floatingWindow.classList.contains('show')) {
-//         floatingWindow.style.display = 'none';
-//     } else {
-//         floatingWindow.style.display = 'block';
-//     }
-// }
-
-// shareButton.addEventListener('click',toggleFloatingWindow);
-
-const dogInfo = [{dogName:"Beagle", imgPath:"Assets/beagle.jpeg"},
-{dogName:"Bernese Mountain Dog", imgPath:'Assets/BerneseMountainDog.jpeg'},
+const dogInfo = [
+{
+    dogName:"Beagle", 
+    imgPath:"Assets/beagle.jpeg",
+    avg:"12-15 years",
+    weight:"9-11 kg",
+    coatType:"Double Coat"
+},
+{
+    dogName:"Bernese Mountain Dog", 
+    imgPath:'Assets/BerneseMountainDog.jpeg',
+    avgAge:"",
+},
 {dogName:"Border Collie", imgPath:"Assets/borderCollie.jpeg"},
 {dogName:"Boxer", imgPath:"Assets/Boxer.jpeg"},
 {dogName:"Chi Hua Hua", imgPath:"Assets/chihuahua.jpeg"},
